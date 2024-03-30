@@ -92,11 +92,27 @@ button:focus-visible {
 
 .main-div{
   background-image: linear-gradient(#fcf5f5,#eff4fd);
-  width: 80vw;
-  /* background-color: blue; */
-  /* padding: 50px; */
-  
-  
+  width: 100%; 
   border-radius: 10px;
-  box-shadow: azure;
+  box-shadow: blue;
+}
+
+.nav-ele{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 10px;
+  
+}
+.nav-ele:hover{
+  color: darkred;
+  cursor: pointer;
+  background-color: #4fd0df;
+  border: 1px solid rgb(126, 205, 236);
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }

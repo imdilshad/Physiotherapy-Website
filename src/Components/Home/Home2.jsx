@@ -3,7 +3,7 @@ import React from 'react'
 function Home2() {
   return (
     <>
-    <section className='main-div'>
+    <div className='main-div'>
 
     <div className='container col-lg-7 '>
       <h3 style={{fontSize: '50px',margin:'10px'}}>360 DEGREE PHYSIO CARE</h3>
@@ -33,7 +33,7 @@ function Home2() {
             </div>
          </div>
     </div>
-    </section>
+    </div>
     <hr />
     </>
   )
