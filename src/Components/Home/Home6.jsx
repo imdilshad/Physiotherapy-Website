@@ -49,6 +49,8 @@ function Home6() {
 
     return (
         <>
+        <section className='main-div'>
+
             <div className='my-4'>
                 <div className=' '>
                     <h3 style={{ fontSize: '50px', margin: '10px' }}>WHAT WE TREAT</h3>
@@ -74,11 +76,8 @@ function Home6() {
                             </ul>
                         </div>
                     </div>
-                            
-
                 </div>
-                
-
+            </section>
             </>
             )
 }

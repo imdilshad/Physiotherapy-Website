@@ -13,6 +13,7 @@ import Home7 from './Components/Home/Home7'
 import Home8 from './Components/Home/Home8'
 import Home9 from './Components/Home/Home9'
 import Footer1 from './Components/Footer/Footer1'
+import Accordion10 from './Components/Home/Accordian10/Accordion10'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
     <Home7/>
     <Home8/>
     <Home9/>
+    <Accordion10/>
     <Footer1/>
     </>
   )

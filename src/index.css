@@ -90,3 +90,13 @@ button:focus-visible {
   background-color: cornsilk;
 }
 
+.main-div{
+  background-image: linear-gradient(#fcf5f5,#eff4fd);
+  width: 80vw;
+  /* background-color: blue; */
+  /* padding: 50px; */
+  
+  
+  border-radius: 10px;
+  box-shadow: azure;
+}

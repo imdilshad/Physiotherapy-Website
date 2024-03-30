@@ -144,6 +144,8 @@ function Home3() {
 
     return (
         <>
+        <section className='main-div'>
+
         <div className='my-4'>
             <div className='container '>
                 <h3 style={{ fontSize: '50px', margin: '10px' }}>THOROUGHLY VETTED EXPERTS</h3>
@@ -157,7 +159,7 @@ function Home3() {
 
                     {data.map((d)=>{
                         return (
-                        <div className='  p-5 ' >
+                            <div className='  p-5 ' >
                 
                             <div  >
                                 <img src={d.img} alt="" style={{border:'2px solid #48D1CC',borderRadius:'3px',width:'250px',height:'200px'}} />
@@ -174,6 +176,7 @@ function Home3() {
             </div> 
                 
         </div>
+        </section>
         <hr />
 
     </>

@@ -7,7 +7,7 @@ function Head1() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 <div className="container-fluid m-3 ">
     <div>
-        <a className="navbar-brand mx-4 " href="#">Navbar</a>
+        <a className="navbar-brand mx-4 " href="#"><h1 style={{ fontFamily: 'cursive', fontWeight: 'bolder' }}>PHYSIO</h1></a>
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>

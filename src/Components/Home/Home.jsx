@@ -5,7 +5,7 @@ function Home() {
  
   return (
     <>
-      {/* <img src="https://www.prebishchiropractic.com/df_media/W1siZiIsIjIwMjAvMDYvMjYvMTEvMTAvNTYvYjM0YzI5NzMtNDJlMS00YThlLWI4OTktZWJjMDVhNzNjNzFiL1Nob3VsZGVyIFBhaW4uanBnIl1d/Shoulder%20Pain.jpg?sha=7fe9a7ebc894f775"  className="image-container img-blurr" alt="..."></img> */}
+      {/* <img style={{width:'',position:"initial"}} src="https://www.prebishchiropractic.com/df_media/W1siZiIsIjIwMjAvMDYvMjYvMTEvMTAvNTYvYjM0YzI5NzMtNDJlMS00YThlLWI4OTktZWJjMDVhNzNjNzFiL1Nob3VsZGVyIFBhaW4uanBnIl1d/Shoulder%20Pain.jpg?sha=7fe9a7ebc894f775"  className="image-container img-blurr" alt="..."></img> */}
       <div className="container-fluid background-container">
         {/* <img src="" alt="" /> */}
         <div className="  description">

@@ -28,66 +28,7 @@ function Home3() {
             img:'https://tse4.mm.bing.net/th?id=OIP.RklfEkDAELFOacIxU_18wAHaEu&pid=Api&P=0&h=180',
             title:"Tonk Phatak"
         },
-        // {
-        //     img:'https://tse4.mm.bing.net/th?id=OIP.d9oF0c1cqdRt-jk36Xa5wgHaE8&pid=Api&P=0&h=180',
-        //     title:"Tele Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse4.mm.bing.net/th?id=OIP.yV9jC593Qv1hjift7erP8AHaFZ&pid=Api&P=0&h=180',
-        //     title:"Sports Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse3.mm.bing.net/th?id=OIP.GK1w3npzOu-kp6_tFfLhiQHaHA&pid=Api&P=0&h=180',
-        //     title:"Ortho Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse2.mm.bing.net/th?id=OIP.IUm3U_0JY5uU_R8lYsN6EAHaE8&pid=Api&P=0&h=180',
-        //     title:"Neuro Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse3.mm.bing.net/th?id=OIP.yqgtodUVI7XsXaFN1b6ucwHaFl&pid=Api&P=0&h=180',
-        //     title:"Ergonomics Specialist"
-        // },
-        // {
-        //     img:'https://tse2.mm.bing.net/th?id=OIP.XavjndVhPXTT6x3xH8r4EgHaEK&pid=Api&P=0&h=180',
-        //     title:"Women's Health Therapist"
-        // },
-        // {
-        //     img:'https://tse2.mm.bing.net/th?id=OIP.QfZda-RK8H1Lx0LJJ-GCpQHaE8&pid=Api&P=0&h=180',
-        //     title:"Pediatric Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse2.mm.bing.net/th?id=OIP.qTgR4pfs9J9TPnGzDuK-ZAHaE5&pid=Api&P=0&h=180',
-        //     title:"Geriatric Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse3.mm.bing.net/th?id=OIP.AWDR7kdSQRedMi6gqZ9FOwHaE8&pid=Api&P=0&h=180',
-        //     title:"Sports Massage Therapist"
-        // },
-        // {
-        //     img:'https://tse1.mm.bing.net/th?id=OIP.P72vdi5ppQw45COLzbA9ugHaE8&pid=Api&P=0&h=180',
-        //     title:"Cardio Respiratory Physiotherapist"
-        // },
-        // {
-        //     img:'https://tse1.mm.bing.net/th?id=OIP.0mzAMWejmbTl6uGu98AFzgHaE8&pid=Api&P=0&h=180',
-        //     title:"Vestibular Rehabilitation (vrt)"
-        // },
-        // {
-        //     img:'https://tse2.mm.bing.net/th?id=OIP.X7XvdjtgJbx2tMwGu4DxvQHaE8&pid=Api&P=0&h=180',
-        //     title:"Pre And Post Surgery Rehabilitation"
-        // },
-        // {
-        //     img:'https://tse3.mm.bing.net/th?id=OIP.5A_rGsHdlqgj087GVcVOjQHaE8&pid=Api&P=0&h=180',
-        //     title:"Spinal Injury Physio"
-        // },
-        // {
-        //     img:'https://tse4.mm.bing.net/th?id=OIP.lZWrXofrrWkFLtqFLcMyLQHaE8&pid=Api&P=0&h=180',
-        //     title:"Strength Training Specialist"
-        // },
-        // {
-        //     img:'https://tse4.mm.bing.net/th?id=OIP.spfaIWhCVsZqzNgLBgOD2QHaE8&pid=Api&P=0&h=180',
-        //     title:"Advanced Physiotherapy"
-        // },
+
     ]
 
     
@@ -144,14 +85,12 @@ function Home3() {
 
     return (
         <>
+        <section className='main-div'>
+
         <div className='my-4'>
             <div className='container '>
                 <h3 style={{ fontSize: '50px', margin: '10px' }}>ADVANCED PHYSIOTHERAPY CLINICS</h3>
-                <p >With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.
-
-
-
-</p>
+                <p >With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.</p>
             </div>
              <div className='container d-flex justify-content-center align-items-center'>
                 <div className=' ' style={{width:'80vw'}} >
@@ -169,13 +108,14 @@ function Home3() {
                             </div>
                         </div>
                         )
-                    })}
+                      })}
                     </Slider>
 
                 </div>
             </div> 
                 
         </div>
+        </section>
         <hr />
 
     </>

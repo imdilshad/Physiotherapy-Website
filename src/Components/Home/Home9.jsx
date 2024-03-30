@@ -67,9 +67,8 @@ function Home9() {
 
     return (
         <>
+        <section className='main-div'>
             <div className='my-4'>
-            
-
                     <div className="  d-flex flex-column justify-content-center align-items-center">
                         <div>
                            <h1 className='m-vertical-scroll-bar-head'>SERVICES OFFERED</h1>
@@ -88,11 +87,8 @@ function Home9() {
                             </ul>
                         </div>
                     </div>
-                            
-
                 </div>
-                <hr />
-
+           </section>
             </>
             )
 }

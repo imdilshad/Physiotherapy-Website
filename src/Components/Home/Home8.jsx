@@ -67,6 +67,8 @@ function Home8() {
 
     return (
         <>
+        <section className='main-div'>
+
             <div className='my-4'>
             
 
@@ -88,11 +90,8 @@ function Home8() {
                             </ul>
                         </div>
                     </div>
-                            
-
                 </div>
-                
-
+            </section>
             </>
             )
 }
