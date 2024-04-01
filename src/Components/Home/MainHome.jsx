@@ -10,6 +10,7 @@ import Home4 from './Home4'
 import Home3 from './Home3'
 import Home2 from './Home2'
 import Home from './Home'
+import MainAbout from '../About/MainAbout'
 
 function MainHome() {
   return (
@@ -25,6 +26,7 @@ function MainHome() {
         <Home8/>
         <Home9/>
         <Accordion10/>
+        
     
     </>
   )

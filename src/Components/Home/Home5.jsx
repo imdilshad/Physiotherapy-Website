@@ -89,8 +89,8 @@ function Home5() {
 
         <div className='my-4'>
             <div className='container '>
-                <h3 style={{ fontSize: '50px', margin: '10px' }}>ADVANCED PHYSIOTHERAPY CLINICS</h3>
-                <p >With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.</p>
+                <h3 className='display-4' >ADVANCED PHYSIOTHERAPY CLINICS</h3>
+                <p className='lead'>With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.</p>
             </div>
              <div className='container d-flex justify-content-center align-items-center'>
                 <div className=' ' style={{width:'80vw'}} >

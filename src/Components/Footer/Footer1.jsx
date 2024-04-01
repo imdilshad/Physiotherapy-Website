@@ -8,63 +8,103 @@ import { MdOutlineMail } from "react-icons/md";
 
 function Footer1() {
     return (
+  
         <>
-        <div style={{margin:'0 -8vw'}}>
+                <footer className="text-center text-lg-start text-white rounded " style={{backgroundColor: '#3e4551'}}>
+                    <div className="container p-4 pb-0">
+                        <section className="">
 
-        <p style={{border:'2px solid black'}}/>
-        <div style={{}}>
-            <footer className="  my-5  ">
-                <div className="d-flex  align-items-center justify-content-beteen gap-5">
-                    <div className="">
-                        <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                            <svg className="bi me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
-                            <h1 style={{ fontFamily: 'cursive', fontWeight: 'bolder' }}>PHYSIO</h1>
-                        </a>
-                        <p className="text-muted">© 2021 physio</p>
-                    </div>
-                    <div className=" ">
-                        <h5 style={{ fontWeight: 'bold', color: 'gray' }}>About Us</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">About Us</a></li>
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">FAQ</a></li>
+                            <div className="row">
 
-                        </ul>
-                    </div>
-                    <div className="">
-                        <h5 style={{ fontWeight: 'bold', color: 'gray' }}>NO SPECIALITIES</h5>
-                        <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted"><MdOutlineMail />help@physio.in</a></li>
-                        </ul>
-                    </div>
-                    <div>
+                                <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                    <h5 className="text-uppercase ">FOOTER CONTENT</h5>
 
-                        <h5 style={{ fontWeight: 'bold', color: 'gray' }}>FOLLOW US</h5>
-                        <div className='social_media d-flex justify-content-center gap-3' style={{ padding: '0px' }}>
-                            <div>
-                                <FaFacebookF />
-                            </div>
-                            <div>
-                                <FaTwitter />
-                            </div>
-                            <div>
-                                <FiInstagram />
-                            </div>
-                            <div>
-                                <FaLinkedinIn />
-                            </div>
-                            <div>
-                                <FaGithub />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                </footer >
-        <hr />
-                    Terms and conditions | Privacy
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Molestiae modi cum ipsam ad, illo possimus laborum ut
+                                        reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+                                        Reiciendis assumenda iusto sapiente inventore animi?
+                                    </p>
+                                </div>
+                                <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+                                    <h5 className="text-uppercase">ABOUT US</h5>
 
-        </div >
-        </div>
+                                    <ul className="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#!" className="text-white">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" className="text-white">Our Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+                                <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
+                                    <h5 className="text-uppercase">Contact</h5>
+
+                                    <ul className="list-unstyled mb-0">
+                                        <li>
+                                            <a href="#!" className="text-white">999-9999-999</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" className="text-white">physiotherapy@gmail.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" className="text-white">Whatsapp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                        <hr className="mb-4" />
+
+                        <section className="mb-4 text-center">
+
+                            <a
+                                className="btn btn-outline-light  m-1"
+                                href="#!"
+                                role="button"
+                            ><FaFacebookF/></a>
+
+                            <a
+                                className="btn btn-outline-light  m-1"
+                                href="#!"
+                                role="button"
+                            ><FaTwitter /></a>
+
+                            <a
+                                className="btn btn-outline-light  m-1"
+                                href="#!"
+                                role="button"
+                            ><FiInstagram />
+                            </a>
+
+                            <a
+                                className="btn btn-outline-light  m-1"
+                                href="#!"
+                                role="button"
+                            ><FaLinkedinIn/></a>
+
+                            <a
+                                className="btn btn-outline-light  m-1"
+                                href="#!"
+                                role="button"
+                            ><FaGithub/></a>
+                        </section>
+
+                    </div>
+                    <div
+                        className="text-center p-3"
+                        style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}
+                    >
+                        © 2020 Copyright:
+                    </div>
+                </footer>
         </>
     )
 }

@@ -5,71 +5,49 @@ import React from 'react'
 function Home2() {
   return (
     <>
-    <div className='main-div'>
-
-    <div className='container  '>
-      <h3 style={{fontSize: '50px',margin:'10px'}}>360 DEGREE PHYSIO CARE</h3>
-      <p >We are committed to ensuring that our clients have easy access to our physiotherapy services, whether it's at any of our Clinics or through scheduling a convenient Home visit.</p>
-    </div>
-    {/* <div  className='d-flex flex-wrap dustify-content-between align-items-center gap-5 m-8'>
-        <div className="card" style={{width: '23rem'}} >
-        <img src="https://tse1.mm.bing.net/th?id=OIP.iVOnCBBWSPjlxqfeo82Q7gHaEK&pid=Api&P=0&h=180" width={100} className="card-img-top" alt="..."/>
-            <div className="card-body">
-                <h5 className="card-title">CLINIC TREATMENTS</h5>
-                <p className="card-text">High quality physiotherapy care at our CB Physiotherapy Centre near you. Best Treatment for Ortho / Neuro Issues</p>
+      <div className='main-div'>
+      <div className='container '>
+                <h3 className='display-4' >360 DEGREE PHYSIO CARE</h3>
+                <p className='lead'>We are committed to ensuring that our clients have easy access to our physiotherapy services, whether it's at any of our Clinics or through scheduling a convenient Home visit.</p>
             </div>
-         </div>
-        <div className="card" style={{width: '23rem'}} >
-        <img src="https://tse4.mm.bing.net/th?id=OIP.2zt71lv5oK7DOlZSSZbhiQHaE8&pid=Api&P=0&h=180" className="card-img-top" alt="..."/>
-        <div className="card-body">
-                <h5 className="card-title">PHYSIO HOME VISITS</h5>
-                <p className="card-text">Home Visits by certified CB Physiotherapists for Patients with mobility issues & for patients looking for convenience</p>
-                </div>
-                </div>
-                <div className="card" style={{width: '23rem'}}>
-                <img src="https://tse2.explicit.bing.net/th?id=OIP.FuywT3Dp9SzeegGXOjL3bAAAAA&pid=Api&P=0&h=180" className="card-img-top" alt="..."/>
-                <div className="card-body">
-                <h5 className="card-title">DIGITAL CARE (FIZO)</h5>
-                <p className="card-text">Digital Physio Assistant 'FIZO' for personalized PT exercises at home. Enables affordable & long-term care Mgmt
-                </p>
-                </div>
-                </div>
-                </div>
-              */}
-  <div  className='cards'>
-    <div className='card'>
-      <div>
-        <img className='card-img' src="https://tse1.mm.bing.net/th?id=OIP.iVOnCBBWSPjlxqfeo82Q7gHaEK&pid=Api&P=0&h=180" alt="" />
+
+      <div className='row d-flex justify-content-center'>
+
+          <div class="card col-lg-3  m-2" style={{width: '25rem;'}}>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.iVOnCBBWSPjlxqfeo82Q7gHaEK&pid=Api&P=0&h=180" class="card-img-top h-100" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title ">CLINIC TREATMENTS</h5>
+              <p class="card-text">High quality physiotherapy care at our CB Physiotherapy Centre near you. Best Treatment for Ortho / Neuro Issues</p>
+            </div>
+          </div>
+          <div class="card col-lg-3 m-2" style={{width: '25rem;'}}>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.2zt71lv5oK7DOlZSSZbhiQHaE8&pid=Api&P=0&h=180" class="card-img-top h-100" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title ">PHYSIO HOME VISITS</h5>
+              <p class="card-text">Home Visits by certified CB Physiotherapists for Patients with mobility issues & for patients looking for convenience</p>
+            </div>
+          </div>
+          <div class="card col-lg-3 m-2" style={{width: '25rem;'}}>
+            <img src="https://tse2.explicit.bing.net/th?id=OIP.FuywT3Dp9SzeegGXOjL3bAAAAA&pid=Api&P=0&h=180" class="card-img-top h-100" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title ">DIGITAL CARE</h5>
+              <p class="card-text">Digital Physio Assistant 'FIZO' for personalized PT exercises at home. Enables affordable & long-term care Mgmt</p>
+            </div>
+          </div>
+          <div class="card col-lg-3 m-2" style={{width: '25rem;'}}>
+            <img src="https://tse2.explicit.bing.net/th?id=OIP.FuywT3Dp9SzeegGXOjL3bAAAAA&pid=Api&P=0&h=180" class="card-img-top h-100" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title ">DIGITAL CARE</h5>
+              <p class="card-text">Digital Physio Assistant 'FIZO' for personalized PT exercises at home. Enables affordable & long-term care Mgmt</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <h5 className="card-title">CLINIC TREATMENTS</h5>
-        <p className='card-desc'>High quality physiotherapy care at our CB Physiotherapy Centre near you. Best Treatment for Ortho / Neuro Issues</p>
-      </div>
-    </div>
-    <div className='card'>
-      <div>
-        <img className='card-img' src="https://tse4.mm.bing.net/th?id=OIP.2zt71lv5oK7DOlZSSZbhiQHaE8&pid=Api&P=0&h=180" alt="" />
-      </div>
-      <div>
-        <h5 className="card-title">PHYSIO HOME VISITS</h5>
-        <p className='card-desc'>Home Visits by certified CB Physiotherapists for Patients with mobility issues & for patients looking for convenience</p>
-      </div>
-    </div>
-    <div className='card'>
-      <div>
-        <img className='card-img' src="https://tse2.explicit.bing.net/th?id=OIP.FuywT3Dp9SzeegGXOjL3bAAAAA&pid=Api&P=0&h=180" alt="" />
-      </div>
-      <div>
-        <h5 className="card-title">DIGITAL CARE</h5>
-        <p className='card-desc'>Digital Physio Assistant 'FIZO' for personalized PT exercises at home. Enables affordable & long-term care Mgmt</p>
-      </div>
-    </div>
 
 
 
-  </div>
-  </div>
-    <hr />
+      
+      <hr />
     </>
   )
 }

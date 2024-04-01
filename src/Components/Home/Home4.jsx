@@ -148,8 +148,8 @@ function Home4() {
 
         <div className='my-4'>
             <div className='container '>
-                <h3 style={{ fontSize: '50px', margin: '10px' }}>THOROUGHLY VETTED EXPERTS</h3>
-                <p >Whether you need physiotherapy at home or in-clinic treatment, our licensed & highly trained Physiotherapists / Chiropractors ensure that you receive the highest quality care.
+                <h3 className='display-4'  >THOROUGHLY VETTED EXPERTS</h3>
+                <p className='lead'>Whether you need physiotherapy at home or in-clinic treatment, our licensed & highly trained Physiotherapists / Chiropractors ensure that you receive the highest quality care.
 
 </p>
             </div>

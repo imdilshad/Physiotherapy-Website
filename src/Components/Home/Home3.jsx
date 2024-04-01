@@ -169,8 +169,8 @@ function Home3() {
 
         <div className='my-4'>
             <div className='container '>
-                <h3 style={{ fontSize: '50px', margin: '10px' }}>CB SPECIALITIES</h3>
-                <p >CB Physiotherapy, provides treatments across multiple specialities in various cities. Confirm with us the availability of Physiotherapist in your nearby areas.</p>
+                <h3 className='display-4' >CB SPECIALITIES</h3>
+                <p className='lead'>CB Physiotherapy, provides treatments across multiple specialities in various cities. Confirm with us the availability of Physiotherapist in your nearby areas.</p>
             </div>
              <div className='container d-flex justify-content-center align-items-center'>
                 <div className=' ' style={{width:'80vw'}} >
@@ -181,10 +181,10 @@ function Home3() {
                         <div className='  p-5 ' key={d._id} >
                 
                             <div  >
-                                <img src={d.img} alt="" style={{border:'2px solid violet',borderRadius:'3px',width:'250px',height:'200px'}} />
+                                <img src={d.img} alt="" style={{border:'2px solid #8FBC8F',borderRadius:'3px',width:'250px',height:'200px'}} />
                             </div>
                             <div style={{width:'250px',minHeight:'50px'}}>
-                                <p className='font-semibold' style={{backgroundColor:'violet',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
+                                <p className='font-semibold' style={{backgroundColor:'#8FBC8F',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
                             </div>
                         </div>
                         )

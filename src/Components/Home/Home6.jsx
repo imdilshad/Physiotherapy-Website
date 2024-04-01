@@ -53,8 +53,8 @@ function Home6() {
 
             <div className='my-4'>
                 <div className=' '>
-                    <h3 style={{ fontSize: '50px', margin: '10px' }}>WHAT WE TREAT</h3>
-                    <p >We offer physiotherapy treatments across Neuro/ Ortho/ Chiro/ Pediatrics/ Geriatrics/ Sports related issues covering a wide range of conditions & symptoms</p>
+                    <h3 className='display-4'>WHAT WE TREAT</h3>
+                    <p className='lead'>We offer physiotherapy treatments across Neuro/ Ortho/ Chiro/ Pediatrics/ Geriatrics/ Sports related issues covering a wide range of conditions & symptoms</p>
                 </div>
             
 

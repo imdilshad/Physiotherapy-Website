@@ -3,9 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Head1() {
   return (
-    <>
 
-<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <>
+    <hr />
+
+<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
 <div className="container-fluid  ">
     <div style={{margin:'0 8vw'}}>
         <a className="navbar-brand mx-4 " href="#"><h1 style={{ fontFamily: 'cursive', fontWeight: 'bolder' }}>PHYSIO</h1></a>
@@ -49,7 +51,9 @@ function Head1() {
         </ul>
     </div>
 </div>
-</nav> 
+</nav>
+
+<hr style={{padding:'20px 0'}}/> 
     </>
   )
 }

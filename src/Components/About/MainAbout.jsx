@@ -4,7 +4,9 @@ import { NavLink } from 'react-router-dom'
 function MainAbout() {
   return (
     <>
-    
+    <div className='main-div'>
+
+    </div>
     </>
   )
 }

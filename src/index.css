@@ -93,8 +93,9 @@ button:focus-visible {
 .main-div{
   background-image: linear-gradient(#fcf5f5,#eff4fd);
   width: 100%; 
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: blue;
+  /* margin: 0 -10vw; */
 }
 
 .nav-ele{
@@ -120,7 +121,7 @@ body{
 
 
 /* cards home2 ------------------------------------------------------------------------------------------------*/
-
+/* 
 .cards{
   width:100%;
   height: auto;
@@ -158,6 +159,6 @@ body{
   color: black;
 }
 .text-decor:hover{
-  color: black;
+  color: black; 
 
 }

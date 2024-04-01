@@ -9,11 +9,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='container-fluid' >
     <Head1/>
     <Outlet/>
     <Footer1/>
-    </>
+    </div>
   )
 }
 
