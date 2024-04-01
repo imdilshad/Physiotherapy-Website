@@ -115,6 +115,7 @@ button:focus-visible {
 body{
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 
@@ -149,4 +150,14 @@ body{
   margin-top: -8px;
   padding: 3px 0;
   font-size: 15px;
+}
+
+/* link ----------------------------------------------------------------------- */
+.text-decor{
+  text-decoration: none;
+  color: black;
+}
+.text-decor:hover{
+  color: black;
+
 }

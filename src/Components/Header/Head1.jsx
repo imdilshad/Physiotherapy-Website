@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Head1() {
   return (
@@ -16,29 +17,29 @@ function Head1() {
         
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item nav-ele">
-                <a className="nav-link active " aria-current="page" href="#">Home</a>
+                <a className="nav-link active " aria-current="page" href="#"><Link to={`/`} className='text-decor'>Home</Link></a>
             </li>
             <li className="nav-item nav-ele">
-                <a className="nav-link " href="#">About Us</a>
+                <a className="nav-link " href="#"><Link to={'/about'} className='text-decor'>About Us</Link></a>
             </li>
             <li className="nav-item dropdown nav-ele">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Our Offerings
                 </a>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" style={{width:'80vw'}} href="#">Therapies Offered</a></li>
+                <ul className="dropdown-menu" style={{width:'auto',}}>
+                    <li><a className="dropdown-item" style={{width:'',}} href="#">Therapies Offered</a></li>
                     <li><a className="dropdown-item" href="#">Services Offered</a></li>
                 </ul>
             </li>
             <li className="nav-item nav-ele">
-                <a className="nav-link" href="#">FAQ</a>
+                <a className="nav-link" href="#"><Link to={'/faq'} className='text-decor'>FAQ</Link></a>
             </li>
             <li className="nav-item dropdown nav-ele">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Patient Education
                 </a>
-                <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" style={{width:'80vw'}} href="#">Conditions We Treat</a></li>
+                <ul className="dropdown-menu" style={{width:'auto',}}>
+                    <li><a className="dropdown-item"  href="#">Conditions We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Symptoms We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Home Excercises</a></li>
                     <li><a className="dropdown-item" href="#">Blog</a></li>

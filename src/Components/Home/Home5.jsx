@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-function Home3() {
+function Home5() {
     
     let data=[
         {
@@ -121,5 +121,5 @@ function Home3() {
     </>
     )
 }
-export default Home3
+export default Home5
 

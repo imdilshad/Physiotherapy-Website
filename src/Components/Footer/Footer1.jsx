@@ -9,8 +9,10 @@ import { MdOutlineMail } from "react-icons/md";
 function Footer1() {
     return (
         <>
+        <div style={{margin:'0 -8vw'}}>
+
         <p style={{border:'2px solid black'}}/>
-        <div>
+        <div style={{}}>
             <footer className="  my-5  ">
                 <div className="d-flex  align-items-center justify-content-beteen gap-5">
                     <div className="">
@@ -62,6 +64,7 @@ function Footer1() {
                     Terms and conditions | Privacy
 
         </div >
+        </div>
         </>
     )
 }
