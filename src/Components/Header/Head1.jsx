@@ -7,7 +7,7 @@ function Head1() {
     <>
     <hr />
 
-<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow main-div">
 <div className="container-fluid  ">
     <div style={{margin:'0 8vw'}}>
         <a className="navbar-brand mx-4 " href="#"><h1 style={{ fontFamily: 'cursive', fontWeight: 'bolder' }}>PHYSIO</h1></a>

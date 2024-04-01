@@ -94,8 +94,9 @@ button:focus-visible {
   background-image: linear-gradient(#fcf5f5,#eff4fd);
   width: 100%; 
   border-radius: 30px;
-  box-shadow: blue;
+  box-shadow: rgb(160, 160, 209);
   /* margin: 0 -10vw; */
+  padding: 5px 0;
 }
 
 .nav-ele{
@@ -107,8 +108,8 @@ button:focus-visible {
 .nav-ele:hover{
   color: darkred;
   cursor: pointer;
-  background-color: #4fd0df;
-  border: 1px solid rgb(126, 205, 236);
+  background-color: #cfcfe8;
+  border: 1px solid rgb(178, 208, 220);
   padding: 0 5px;
   border-radius: 10px;
 }

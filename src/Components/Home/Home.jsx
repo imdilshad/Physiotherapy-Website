@@ -5,7 +5,7 @@ function Home() {
  
   return (
     <>
-    <br />
+    
     <section className='main-div mt-5'>
 
         <div className="   container">

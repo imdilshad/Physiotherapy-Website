@@ -1,26 +1,25 @@
 import React, { useState } from 'react'
-import './Accordian10.css'
-import MyAccordian from './MyAccordion'
+
 
 
 function Accordion10() {
-    const data=[
-        {
-            id:1,
-            question: "What is Integrated Physio Care by CB Physiotherapy",
-            answer:"Integrated Care Focusses on better Outcomes by using a combination of therapies and delivery models that suit you the best for short term relief as well as long term management of your condition. It Starts with an all-around assessment followed by a personalized treatment program consisting of various types of therapies. Our Efforts Continue after the treatment is over as you would be given an exercise prescription/schedule to be followed at home. Video Library and supported mobile app help in adherence to prescribed exercises and reduce the chances of problem recurrence.",
-        },
-        {
-            id:2,
-            question: "What are the services Offered by CB Physiotherapy in India?",
-            answer:"CB Physiotherapy Offers treatments in our partner clincs & Physiotherapy at Home Service ( currently in major metros in India). We Also provide Remote / virtual physiotherapy session. VIrtual Physiotherapy Sessions generally asessment of your condition and then an exercise prescription is given for the same. Home Exercises for managemnt of ortho / neuro conditions is enabled by our mobile app.",
-        },
-        {
-            id:3,
-            question: "Do you Offer Remote Physiotherapy / VIrtual Physiotherapy to Overseas Patients.",
-            answer:"Yes, If you are located outside India, you can still avial our remote physiotehrapy services. After booking a remote therapy session. Our team wil schedule a remote therapy session over whatsapp/ gooogle meet / zoom meeting. After the session home exercise sessions will be given or if needed the exercise sessions can be done under the guidance of our physio over video calling.",
-        },
-    ]
+    // const data=[
+    //     {
+    //         id:1,
+    //         question: "What is Integrated Physio Care by CB Physiotherapy",
+    //         answer:"Integrated Care Focusses on better Outcomes by using a combination of therapies and delivery models that suit you the best for short term relief as well as long term management of your condition. It Starts with an all-around assessment followed by a personalized treatment program consisting of various types of therapies. Our Efforts Continue after the treatment is over as you would be given an exercise prescription/schedule to be followed at home. Video Library and supported mobile app help in adherence to prescribed exercises and reduce the chances of problem recurrence.",
+    //     },
+    //     {
+    //         id:2,
+    //         question: "What are the services Offered by CB Physiotherapy in India?",
+    //         answer:"CB Physiotherapy Offers treatments in our partner clincs & Physiotherapy at Home Service ( currently in major metros in India). We Also provide Remote / virtual physiotherapy session. VIrtual Physiotherapy Sessions generally asessment of your condition and then an exercise prescription is given for the same. Home Exercises for managemnt of ortho / neuro conditions is enabled by our mobile app.",
+    //     },
+    //     {
+    //         id:3,
+    //         question: "Do you Offer Remote Physiotherapy / VIrtual Physiotherapy to Overseas Patients.",
+    //         answer:"Yes, If you are located outside India, you can still avial our remote physiotehrapy services. After booking a remote therapy session. Our team wil schedule a remote therapy session over whatsapp/ gooogle meet / zoom meeting. After the session home exercise sessions will be given or if needed the exercise sessions can be done under the guidance of our physio over video calling.",
+    //     },
+    // ]
 
 
     
@@ -41,11 +40,11 @@ function Accordion10() {
             <div class="accordion accordion-flush" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     How Do I Change My Billing Information?
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <p>To change your billing information, please follow these steps:</p>
                     <ul>
