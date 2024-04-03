@@ -167,7 +167,7 @@ function Home4() {
                 
         </div>
         </section>
-        <hr />
+        
 
     </>
     )

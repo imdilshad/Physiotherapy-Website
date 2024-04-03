@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+ 
 }
 
 h1 {
@@ -91,12 +92,14 @@ button:focus-visible {
 }
 
 .main-div{
-  background-image: linear-gradient(#fcf5f5,#eff4fd);
+  /* background-image: linear-gradient(#fcf5f5,#eff4fd); */
+  background-color: #2ed111;
   /* width: 100vw;  */
   border-radius: 30px;
   box-shadow: rgb(160, 160, 209);
   /* margin: 0 -10vw; */
   padding: 5px 0;
+  margin: 5px 0;
 }
 
 .nav-ele{
@@ -139,3 +142,29 @@ button:focus-visible {
   --bs-gutter-x: -1.5rem !important;
 }
 /* ----------------------- */
+
+.nav-round{
+  border-radius: 0 0 20% 20%;
+}
+
+/* zoom -------------------- */
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* -------------------------- */
+
+/* card transition */
+
+.card {
+  padding: 2em;
+}  

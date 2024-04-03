@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
     
-    <section className='main-div mt-5'>
+    <section className='main-div mt-4'>
 
         <div className=" container  ">
 
@@ -16,7 +16,7 @@ function Home() {
       
     </div>
     </section>
-    <hr />
+  
       
     </>
   )

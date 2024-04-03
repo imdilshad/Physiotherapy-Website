@@ -7,15 +7,17 @@ function Head1() {
     <>
 
 
-<nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow main-div " >
+<nav className="navbar mt-0 navbar-expand-lg  fixed-top nav-round shadow main-div " >
 <div className="container-fluid  ">
     <div style={{margin:'0 8vw'}}>
-        <a className="navbar-brand mx-4 " href="#"><h1 style={{ fontFamily: 'cursive', fontWeight: 'bolder' }}>PHYSIO</h1></a>
+        <a className="navbar-brand mx-4 " href="#"><b><i>PHYSIO</i></b></a>
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <div>
+    <div className="collapse navbar-collapse " id="navbarNavDropdown" >
         
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item nav-ele">
@@ -50,10 +52,10 @@ function Head1() {
         
         </ul>
     </div>
+    </div>
 </div>
 </nav>
 
-<hr style={{padding:'20px 0'}}/> 
     </>
   )
 }

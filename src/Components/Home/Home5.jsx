@@ -102,7 +102,7 @@ function Home5() {
                 
         </div>
         </section>
-        <hr />
+        
 
     </>
     )
