@@ -232,13 +232,14 @@ function Home6() {
     ]
     return (
         <>
-            <section className='main-div container-fluid'>
+            <section className='main-div container-fluid '>
                 <div className='w-100'>
                     <div className=' w-100'>
                         <h3 className='display-4'>WHAT WE TREAT</h3>
                         <p className='lead'>We offer physiotherapy treatments across Neuro/ Ortho/ Chiro/ Pediatrics/ Geriatrics/ Sports related issues covering a wide range of conditions & symptoms</p>
                     </div>
 
+                    <div className='d-flex justify-content-center '>
                     <div className="row w-100">
                         <div className='my-4 col-md-6 col-12'>
                             <div className="  d-flex flex-column justify-content-center align-items-center w-100">
@@ -246,7 +247,7 @@ function Home6() {
                                     <h1 className='m-vertical-scroll-bar-head w-100'>Conditions</h1>
                                 </div>
                                 <div className='w-100'>
-                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                    <ul className=" nav-pills nav-stacked anyClass w-100 pl-0" style={{padding:'0rem'}} >
                                         {data1.map((d) => {
                                             return (
                                                 <>
@@ -267,7 +268,7 @@ function Home6() {
                                     <h1 className='m-vertical-scroll-bar-head w-100'>SYMPTOMS</h1>
                                 </div>
                                 <div className='w-100'>
-                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                    <ul className=" nav-pills nav-stacked anyClass w-100 pl-0" style={{padding:'0rem'}}>
                                         {data2.map((d) => {
                                             return (
                                                 <>
@@ -282,18 +283,13 @@ function Home6() {
                             </div>
                         </div>
 
-
-
-
-
-
                         <div className='my-4 col-md-6 col-12'>
                             <div className="  d-flex flex-column justify-content-center align-items-center w-100">
                                 <div className='w-100'>
                                     <h1 className='m-vertical-scroll-bar-head w-100 '>THERAPIES OFFERED</h1>
                                 </div>
                                 <div className='w-100'>
-                                    <ul className=" nav-pills nav-stacked anyClass " >
+                                    <ul className=" nav-pills nav-stacked anyClass w-100 pl-0" style={{padding:'0rem'}}>
                                         {data3.map((d) => {
                                             return (
                                                 <>
@@ -313,8 +309,8 @@ function Home6() {
                                 <div className='w-100'>
                                     <h1 className='m-vertical-scroll-bar-head w-100 '>SERVICES OFFERED</h1>
                                 </div>
-                                <div className='w-100'>
-                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                <div className='w-100 d-flex' >
+                                    <ul className=" nav-pills nav-stacked anyClass w-100 " style={{padding:'0rem'}}>
                                         {data4.map((d) => {
                                             return (
                                                 <>
@@ -330,6 +326,7 @@ function Home6() {
                         </div>
                     </div>
                 </div>
+                                        </div>
             </section>
         </>
     )

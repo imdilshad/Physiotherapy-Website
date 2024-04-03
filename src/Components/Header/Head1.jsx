@@ -28,7 +28,7 @@ function Head1() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Our Offerings
                 </a>
-                <ul className="dropdown-menu" style={{width:'auto',}}>
+                <ul className="dropdown-menu" style={{width:'',}}>
                     <li><a className="dropdown-item" style={{width:'',}} href="#">Therapies Offered</a></li>
                     <li><a className="dropdown-item" href="#">Services Offered</a></li>
                 </ul>
@@ -40,7 +40,7 @@ function Head1() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Patient Education
                 </a>
-                <ul className="dropdown-menu" style={{width:'auto',}}>
+                <ul className="dropdown-menu" style={{width:'',}}>
                     <li><a className="dropdown-item"  href="#">Conditions We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Symptoms We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Home Excercises</a></li>

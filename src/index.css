@@ -92,7 +92,7 @@ button:focus-visible {
 
 .main-div{
   background-image: linear-gradient(#fcf5f5,#eff4fd);
-  width: 100vw; 
+  /* width: 100vw;  */
   border-radius: 30px;
   box-shadow: rgb(160, 160, 209);
   /* margin: 0 -10vw; */
@@ -133,3 +133,9 @@ button:focus-visible {
   color: black; 
 
 }
+
+/* row ------------------- */
+.row {
+  --bs-gutter-x: -1.5rem !important;
+}
+/* ----------------------- */
