@@ -91,15 +91,18 @@ function Home4() {
     ]
 
     
-    const sliderRef = useRef(null);
+    const sliderRef = useRef();
 
-    useEffect(() => {
-        const slider = sliderRef.current;
-        slider.slickPlay(); // Auto play the slider when component mounts
-        return () => {
-            slider.slickPause(); // Pause the slider when component unmounts
-        };
-    }, []);
+    // useEffect(() => {
+    //     const slider = sliderRef.current;
+    //     if (slider){
+
+    //         slider.slickPlay(); // Auto play the slider when component mounts
+    //         return () => {
+    //             slider.slickPause(); // Pause the slider when component unmounts
+    //         };
+    //     } 
+    // }, []);
 
     const settings = {
         dots: true,

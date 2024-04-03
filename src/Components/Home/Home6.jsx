@@ -232,104 +232,104 @@ function Home6() {
     ]
     return (
         <>
-            <section className='main-div '>
-                
-                    
-                    <div className=' '>
+            <section className='main-div container-fluid'>
+                <div className='w-100'>
+                    <div className=' w-100'>
                         <h3 className='display-4'>WHAT WE TREAT</h3>
                         <p className='lead'>We offer physiotherapy treatments across Neuro/ Ortho/ Chiro/ Pediatrics/ Geriatrics/ Sports related issues covering a wide range of conditions & symptoms</p>
                     </div>
 
-                <div className="row">
-                <div className='my-4 col xs={12} md={8} lg={6}'>
-                    <div className="  d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <h1 className='m-vertical-scroll-bar-head'>Conditions</h1>
+                    <div className="row w-100">
+                        <div className='my-4 col-md-6 col-12'>
+                            <div className="  d-flex flex-column justify-content-center align-items-center w-100">
+                                <div className='w-100'>
+                                    <h1 className='m-vertical-scroll-bar-head w-100'>Conditions</h1>
+                                </div>
+                                <div className='w-100'>
+                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                        {data1.map((d) => {
+                                            return (
+                                                <>
+                                                    <li className='nav-item m-vertical-scroll-bar-list '>
+                                                        {d.title}
+                                                    </li>
+                                                </>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <ul className=" nav-pills nav-stacked anyClass" style={{ width: '40vw' }}>
-                                {data1.map((d) => {
-                                    return (
-                                        <>
-                                            <li className='nav-item m-vertical-scroll-bar-list'>
-                                                {d.title}
-                                            </li>
-                                        </>
-                                    )
-                                })}
-                            </ul>
+
+                        <div className='my-4 col-md-6 col-12 '>
+                            <div className="  d-flex flex-column justify-content-center align-items-center w-100">
+                                <div className='w-100'>
+                                    <h1 className='m-vertical-scroll-bar-head w-100'>SYMPTOMS</h1>
+                                </div>
+                                <div className='w-100'>
+                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                        {data2.map((d) => {
+                                            return (
+                                                <>
+                                                    <li className='nav-item m-vertical-scroll-bar-list'>
+                                                        {d.title}
+                                                    </li>
+                                                </>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div className='my-4 col-md-6 col-12'>
+                            <div className="  d-flex flex-column justify-content-center align-items-center w-100">
+                                <div className='w-100'>
+                                    <h1 className='m-vertical-scroll-bar-head w-100 '>THERAPIES OFFERED</h1>
+                                </div>
+                                <div className='w-100'>
+                                    <ul className=" nav-pills nav-stacked anyClass " >
+                                        {data3.map((d) => {
+                                            return (
+                                                <>
+                                                    <li className='nav-item m-vertical-scroll-bar-list '>
+                                                        {d.title}
+                                                    </li>
+                                                </>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='my-4 col-md-6 col-12 ' >
+                            <div className="  d-flex flex-column justify-content-center align-items-center w-100">
+                                <div className='w-100'>
+                                    <h1 className='m-vertical-scroll-bar-head w-100 '>SERVICES OFFERED</h1>
+                                </div>
+                                <div className='w-100'>
+                                    <ul className=" nav-pills nav-stacked anyClass w-100" >
+                                        {data4.map((d) => {
+                                            return (
+                                                <>
+                                                    <li className='nav-item m-vertical-scroll-bar-list w-100 '>
+                                                        {d.title}
+                                                    </li>
+                                                </>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div className='my-4 col xs={12} md={8} lg={6}'>
-                    <div className="  d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <h1 className='m-vertical-scroll-bar-head'>SYMPTOMS</h1>
-                        </div>
-                        <div>
-                            <ul className=" nav-pills nav-stacked anyClass" style={{ width: '40vw' }}>
-                                {data2.map((d) => {
-                                    return (
-                                        <>
-                                            <li className='nav-item m-vertical-scroll-bar-list'>
-                                                {d.title}
-                                            </li>
-                                        </>
-                                    )
-                                })}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                </div>
-
-
-                <div className="row">
-
-                <div className='my-4 col'>
-                    <div className="  d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <h1 className='m-vertical-scroll-bar-head'>THERAPIES OFFERED</h1>
-                        </div>
-                        <div>
-                            <ul className=" nav-pills nav-stacked anyClass" style={{ width: '40vw' }}>
-                                {data3.map((d) => {
-                                    return (
-                                        <>
-                                            <li className='nav-item m-vertical-scroll-bar-list'>
-                                                {d.title}
-                                            </li>
-                                        </>
-                                    )
-                                })}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='my-4 col'>
-                    <div className="  d-flex flex-column justify-content-center align-items-center">
-                        <div>
-                            <h1 className='m-vertical-scroll-bar-head'>SERVICES OFFERED</h1>
-                        </div>
-                        <div>
-                            <ul className=" nav-pills nav-stacked anyClass" style={{ width: '40vw' }}>
-                                {data4.map((d) => {
-                                    return (
-                                        <>
-                                            <li className='nav-item m-vertical-scroll-bar-list'>
-                                                {d.title}
-                                            </li>
-                                        </>
-                                    )
-                                })}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-               </div>
             </section>
         </>
     )

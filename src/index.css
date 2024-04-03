@@ -92,7 +92,7 @@ button:focus-visible {
 
 .main-div{
   background-image: linear-gradient(#fcf5f5,#eff4fd);
-  width: 100%; 
+  width: 100vw; 
   border-radius: 30px;
   box-shadow: rgb(160, 160, 209);
   /* margin: 0 -10vw; */
@@ -114,50 +114,20 @@ button:focus-visible {
   border-radius: 10px;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
-
-/* cards home2 ------------------------------------------------------------------------------------------------*/
-/* 
-.cards{
-  width:100%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.card{
-  width: 50%;
-  margin: 5px;
-}
-.card:hover{
-  background-color: aliceblue;
-}
-.card-img{
-  border: 2px solid  rgb(112, 177, 212);
-  box-shadow: #4fd0df;
-}
-.card-title{
-  padding: 3px 0;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 0;
-}
-.card-desc{
-  margin-top: -8px;
-  padding: 3px 0;
-  font-size: 15px;
-}
-
-/* link ----------------------------------------------------------------------- */
 .text-decor{
   text-decoration: none;
   color: black;
+}
+.active{
+  color: #37a2a2;
+  /* text-decoration: dashed; */
+  /* background-color: #535bf2; */
+
+}
+.notactive{
+  text-decoration: none;
+  color: rgb(211, 66, 66);
+  background-color: #2ed111;
 }
 .text-decor:hover{
   color: black; 

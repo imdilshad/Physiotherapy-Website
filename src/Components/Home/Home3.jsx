@@ -112,15 +112,15 @@ function Home3() {
 
 
 
-    const sliderRef = useRef(null);
+    const sliderRef = useRef();
 
-    useEffect(() => {
-        const slider = sliderRef.current;
-        slider.slickPlay(); // Auto play the slider when component mounts
-        return () => {
-            slider.slickPause(); // Pause the slider when component unmounts
-        };
-    }, []);
+    // useEffect(() => {
+    //     const slider = sliderRef.current;
+    //     slider.slickPlay(); // Auto play the slider when component mounts
+    //     return () => {
+    //         slider.slickPause(); // Pause the slider when component unmounts
+    //     };
+    // }, []);
 
     const settings = {
         dots: true,
@@ -196,29 +196,6 @@ function Home3() {
         </section>
         <hr /> 
 
-            {/* <div className="slider-container">
-                <h2>Combined Responsive and Autoplay Slider</h2>
-                <Slider ref={sliderRef} {...settings}>
-                    <div>
-                        <h3>Slide 1</h3>
-                    </div>
-                    <div>
-                        <h3>Slide 2</h3>
-                    </div>
-                    <div>
-                        <h3>Slide 3</h3>
-                    </div>
-                    <div>
-                        <h3>Slide 4</h3>
-                    </div>
-                    <div>
-                        <h3>Slide 5</h3>
-                    </div>
-                    <div>
-                        <h3>Slide 6</h3>
-                    </div>
-                </Slider>
-            </div> */}
 
         </>
     )

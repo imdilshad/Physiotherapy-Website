@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='container-fluid' >
+    <div  >
     <Head1/>
     <Outlet/>
     <Footer1/>

@@ -13,13 +13,13 @@ function MainHome() {
   return (
     <>
     
-        <Home/>
-        <Home2/>
-        <Home3/>
-        <Home4/>
-        <Home5/>
+        {/* <Home/> */}
+        {/* <Home2/> */}
+        {/* <Home3/> */}
+        {/* <Home4/> */}
+        {/* <Home5/> */}
         <Home6/>
-        <Accordion10/>
+        {/* <Accordion10/> */}
         
     
     </>
