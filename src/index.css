@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
- 
+ background-color: #f5f8fa;
 }
 
 h1 {
@@ -73,13 +73,13 @@ button:focus-visible {
   background-color: '#f9d7da';
 }
 
-.m-vertical-scroll-bar-head{
+/* .m-vertical-scroll-bar-head{
   padding:4px;
   background-color: aquamarine;
   font-weight: bold;
   width:40vw;
   border-radius: 3px;
-}
+} */
 
 .m-vertical-scroll-bar-list{
   padding: 5px 2px;
@@ -92,10 +92,10 @@ button:focus-visible {
 }
 
 .main-div{
-  /* background-image: linear-gradient(#fcf5f5,#eff4fd); */
-  background-color: #2ed111;
+  background-image: linear-gradient(#fcf5f5,#eff4fd);
+  /* background-color: #2ed111; */
   /* width: 100vw;  */
-  border-radius: 30px;
+  /* border-radius: 30px; */
   box-shadow: rgb(160, 160, 209);
   /* margin: 0 -10vw; */
   padding: 5px 0;
@@ -150,7 +150,7 @@ button:focus-visible {
 /* zoom -------------------- */
 .zoom {
   padding: 50px;
-  background-color: green;
+  /* background-color: green; */
   transition: transform .2s; /* Animation */
   width: 200px;
   height: 200px;
@@ -166,5 +166,30 @@ button:focus-visible {
 /* card transition */
 
 .card {
-  padding: 2em;
+  /* padding: 2em; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }  
+
+.hero-image{
+  background-image: url('https://images.unsplash.com/photo-1519911937006-b83ad483d860?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: white;
+}
+.slider{
+  width: 80vw;;
+}
+/* for mobile screens  */
+@media (max-width:767px){
+  .slider{
+    width: 340px;
+  }
+   .nav-button{
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    
+   }
+  
+}

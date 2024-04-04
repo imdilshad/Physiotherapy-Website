@@ -76,20 +76,20 @@ function Home5() {
 
         <div className='my-4'>
             <div className='container '>
-                <h3 className='display-4' >ADVANCED PHYSIOTHERAPY CLINICS</h3>
-                <p className='lead'>With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.</p>
+                <h3 className='display-4 fs-2' >ADVANCED PHYSIOTHERAPY CLINICS</h3>
+                <p className='lead text-secondary fs-6 '>With expertise, our Clinics are equipped with latest approved technologies in healing & rehabilitation to ensure that you get the best care.</p>
             </div>
              <div className='container d-flex justify-content-center align-items-center'>
-                <div className=' ' style={{width:'80vw'}} >
+                <div className='slider ' style={{width:'80vw'}} >
                 <Slider ref={sliderRef} {...settings}>
                     {data.map((d)=>{
                         return (
                         <div className='  p-5 ' >
                 
-                            <div  >
+                            <div  className=''>
                                 <img src={d.img} alt="" style={{border:'2px solid #7FFFD4',borderRadius:'3px',width:'300px',height:'250px'}} />
                             </div>
-                            <div style={{width:'300px',minHeight:'50px'}}>
+                            <div className='card' style={{width:'300px',minHeight:'50px'}}>
                                 <p className='font-semibold' style={{backgroundColor:'#7FFFD4',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
                             </div>
                         </div>

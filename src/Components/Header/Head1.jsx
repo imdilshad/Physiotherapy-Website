@@ -8,13 +8,15 @@ function Head1() {
 
 
 <nav className="navbar mt-0 navbar-expand-lg  fixed-top nav-round shadow main-div " >
-<div className="container-fluid  ">
-    <div style={{margin:'0 8vw'}}>
-        <a className="navbar-brand mx-4 " href="#"><b><i>PHYSIO</i></b></a>
+<div className="container-fluid  d-flex justify-content-between ">
+    <div >
+        <a className="navbar-brand fw-bold logo mx-4 " href="#">PHYSIO</a>
     </div>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <div className='nav-button '>
+    <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
+    </div>
 
     <div>
     <div className="collapse navbar-collapse " id="navbarNavDropdown" >
@@ -30,8 +32,8 @@ function Head1() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Our Offerings
                 </a>
-                <ul className="dropdown-menu" style={{width:'',}}>
-                    <li><a className="dropdown-item" style={{width:'',}} href="#">Therapies Offered</a></li>
+                <ul className="dropdown-menu" >
+                    <li><a className="dropdown-item"  href="#">Therapies Offered</a></li>
                     <li><a className="dropdown-item" href="#">Services Offered</a></li>
                 </ul>
             </li>
@@ -42,7 +44,7 @@ function Head1() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Patient Education
                 </a>
-                <ul className="dropdown-menu" style={{width:'',}}>
+                <ul className="dropdown-menu" >
                     <li><a className="dropdown-item"  href="#">Conditions We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Symptoms We Treat</a></li>
                     <li><a className="dropdown-item" href="#">Home Excercises</a></li>

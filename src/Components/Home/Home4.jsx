@@ -138,13 +138,13 @@ function Home4() {
 
         <div className='my-4'>
             <div className='container '>
-                <h3 className='display-4'  >THOROUGHLY VETTED EXPERTS</h3>
-                <p className='lead'>Whether you need physiotherapy at home or in-clinic treatment, our licensed & highly trained Physiotherapists / Chiropractors ensure that you receive the highest quality care.
+                <h3 className='display-4 fs-2'  >THOROUGHLY VETTED EXPERTS</h3>
+                <p className='lead text-secondary fs-6'>Whether you need physiotherapy at home or in-clinic treatment, our licensed & highly trained Physiotherapists / Chiropractors ensure that you receive the highest quality care.
 
 </p>
             </div>
-             <div className='container d-flex justify-content-center align-items-center'>
-                <div className=' ' style={{width:'80vw'}} >
+             <div className='container d-flex justify-content-center align-items-center container-fluid'>
+                <div className='slider w-100'   >
                 <Slider ref={sliderRef} {...settings}>
 
                     {data.map((d)=>{
@@ -154,7 +154,7 @@ function Home4() {
                             <div  >
                                 <img src={d.img} alt="" style={{border:'2px solid #48D1CC',borderRadius:'3px',width:'300px',height:'250px'}} />
                             </div>
-                            <div style={{width:'300px',minHeight:'50px'}}>
+                            <div className='card' style={{width:'300px',minHeight:'50px'}}>
                                 <p className='font-semibold' style={{backgroundColor:'#48D1CC',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
                             </div>
                         </div>
